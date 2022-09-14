@@ -1,0 +1,59 @@
+@media (max-width: 1000px) {
+  .main {
+    &__woman {
+      position: absolute;
+      bottom: -10px;
+      left: 20%;
+    }
+  }
+  .characteristic {
+    &__container {
+      display: block;
+    }
+    &__column {
+      margin-bottom: 30px;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .main {
+    &__woman {
+      position: absolute;
+      bottom: -10px;
+      left: 10%;
+    }
+  }
+}
+@media (max-width: 650px) {
+  .popup {
+    &__container {
+      width: 300px;
+    }
+    &__number {
+      font-size: 36px;
+    }
+    &__price-old {
+      font-size: 18px;
+    }
+    &__price-new {
+      font-size: 24px;
+      padding-left: 5px;
+    }
+  }
+  .main {
+    &__img {
+      text-align: end;
+    }
+    &__woman {
+      left: 0%;
+    }
+  }
+  .help {
+    &__column {
+      width: 272px;
+    }
+    &__item {
+      height: 550px;
+    }
+  }
+}
